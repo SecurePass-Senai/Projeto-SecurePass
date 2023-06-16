@@ -87,6 +87,13 @@ main {
     height: 50px;
     width: 100px;
 }
+
+.perfilp img{
+    height: 25PX;
+    width: 25px;
+
+}
+
 .infos {
     height: 1000px;
     width: 350px;
@@ -148,10 +155,12 @@ td.esquerda {
 .verifi{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
+    justify-content: space-between ;
     font-family: var(--font1);
+    font-size: 23px;
     color: #12D76E;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .hr_adm1 {
@@ -160,9 +169,14 @@ td.esquerda {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5px;
    
 }
 
+.verifi img {
+    height: 30px;
+    
+}
 .menu_ss{  
    
  
