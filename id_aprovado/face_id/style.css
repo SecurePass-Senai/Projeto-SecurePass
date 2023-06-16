@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1:'Montserrat', sans-serif;
+    --font2:'Righteous', cursive;
+    --font3:'Titillium Web', sans-serif; 
+    --branco: #ffffff;
+
+
+}
+
+body{
+    background: url(../Assets/Backgronud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteiner_grid{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.conteiner_grid p{
+    color: var(--branco);
+    font-family: var(--font1);
+    font-size: 20px;
+    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000, 0px 0px 2px rgba(0, 0, 0, 0);
+}
+
+
+.header_cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
