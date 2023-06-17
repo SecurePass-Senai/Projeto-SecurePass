@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #FFFFFF;
+
+    --font1: 'Lato', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+
+body {
+    background-image: url(Img/Backgronud.png);
+    color: var(--branco);
+    font-family: var(--font2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+header {
+    width: 100%;
+}
+
+.log {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hr_esquerda {
+    border-bottom: solid 2px #FFFFFF;
+    width: 60%;
+
+}
+
+.hr_direita {
+    border-bottom: solid 2px #FFFFFF;
+    width: 35%;
+
+
+}
+
+.log img {
+    height: 80px;
+}
+
+.nomes {
+    font-family: var(--font2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+
+}
+
+.formulario {
+    width: 500px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px;
+
+
+}
+
+.forms {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 12px;
+    padding-bottom: 5PX;
+    color: black;
+    font-family: var(--font2);
+    font-style: ;
+    margin-top: 5px;
+    top: 2PX;
+}
+
+form input {
+    height: 35px;
+    
+
+
+}
