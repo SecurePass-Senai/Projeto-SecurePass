@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1:'Lato', sem serifa;
+    --font2: 'Montserrat', sem serifa;
+    --branco: #FFFFFF;
+    --azul_claro: #1A7CA6;
+    --verde: #12D76E;
+}
+
+.menu p{
+    font-family: var(--font2);
+    color: var(--azul_claro);
+    justify-content: space-between;
+    display: flex;
+
+    }
+
+
+ 
+
+
+
