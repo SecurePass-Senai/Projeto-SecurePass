@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil usuario</title>
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body >
+    <!-- scroll="no" style="overflow: hidden" -->
+    <header>
+        <div class="posicao_header"> 
+            <nav>
+                <p>João Gomes</p>
+                <p>Biometria Facial</p>
+               
+            </nav>   
+        </div>
+    </header>
+    <main>
+        <h1> Pagina do usuario</h1>
+        <section class="banner">
+            <div class="banner_conteudo">
+                <!-- linha que cruza a página -->
+                <div class="linha"> <img src="../img/Logo.png" alt=""> </div>
+                <!-- <img src="../img/Backgronud.png" alt=""> -->
+            </div>
+        
+        </section>
+        <!-- Imagem de perfil do usuário com verificado -->
+            <section class="imagem_perfil">
+                <div class="foto_perfil">
+                    <img src="../img/Foto_perfil.png" alt="">
+                </div>
+
+                <div class="perfil_verifi"> 
+                    <h2>Perfil</h2>
+                    <img src="../img/verificado.png" class="verificado">
+                </div>
+                <div class="logo_volgs">
+                    <!-- <img src="../img/Foto_perfil.png" alt=""> -->
+                    <img src="../img/volkswagen-logo-.png" alt="">
+                </div>
+            </section> 
+
+           
+
+            <Section class="tabela">
+                <div class="tabela_perfil">
+                    <p>#&emsp;Administrador</p>
+                    <hr>
+                    <ol class="tabela_esquerda">
+                       <li>ID</li>
+                       <li>Nome</li>
+                       <li>Área</li>
+                       <li>Data de Nascimento</li>
+                       <li>Função</li>
+                       <li>Sessão</li>
+                    </ol>
+                    <ol class="tabela_direita">
+                        <li>374345-3293030-9</li>
+                        <li>Renato Soares</li>
+                        <li>Chão de Fábrica</li>
+                        <li>14/10/1997</li>
+                        <li>Chefe De Chão De Fábrica</li>
+                        <li>304</li>
+                    </ol>
+                    <hr>
+                    <div class="id">
+                        <p>id verificado</p>
+                        <img src="../img/verificado.png" class="verificado">
+                     </div>
+                    <hr>
+                    <div class="sucesso id">
+                        <p>sucesso</p>
+                        <img src="../img/verificado.png" class="verificado">
+                    </div>
+                </div>
+            </Section>
+
+            <aside>
+                <section class="botao">
+                    <div class="redirecao"> <a href="#">Cadastro</a></div>
+                    <div class="redirecao"> <a href="#">Ações</a></div>
+                    <div class="redirecao"> <a href="#">Perfil</a></div>
+                    <div class="redirecao"> <a href="#">Sair</a></div>
+                </section>
+            </aside>
+
+         
+    </main>
+</body>
+</html>

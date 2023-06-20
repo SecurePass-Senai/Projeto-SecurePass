@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azulE: #072F57;
+    --azulC: #1A7CA6;
+    --branco: #E3F6F5;
+    --verdeC: #BAE8E8;
+    --verdeE: #2C698D;
+
+    --font1: 'Montserrat Alternates', sans-serif;
+    --font2: 'Roboto', sans-serif;
+
+}
+
+/* configuração do background */
+body {
+    background-image: url("Img/Backgronud.png");
+    background-color: var(--azulE);
+    background-position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+/* colocando cor no header */
+header {
+    background-color: var(--azulE);
+
+}
+
+/* alinhando o conteudo dentro header */
+.posicao_header {
+    font-family: var(--font1);
+    color: var(--branco);
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+/* font 1 */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-weight: bold
+}
+
+/* colocando os textos com uma margin minima */
+header p {
+    margin: 15px;
+}
+
+/* configurando o h1 */
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+}
+
+/* banner background */
+.banner_conteudo {
+    background-color: var(--azulE);
+
+
+}
+
+/* linha secure pass */
+.linha {
+    width: 100%;
+    border-bottom: 3px solid var(--branco);
+    display: flex;
+
+}
+
+/* linha do logo secure pass */
+.linha img {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px -40px 1000px;
+    width: 70px;
+    background-color: var(--azulE);
+    position: relative;
+}
+
+/* alinhamento da imagem de validacao */
+.valid {
+    width: 300px;
+    justify-self: center;
+    margin-left: 10%;
+
+}
+
+
+
+/* Texto da caixa background */
+.Detecção {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font2);
+    color: var(--branco);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 127px;
+    width: 300px;
+    background-color: #000000;
+    font-size: large;
+    border-radius: 15px;
+}
+
+/* Alinhe seu rosto */
+.Detecção>p {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    height: 650px;
+    width: 55%;
+    margin-left: 15%;
+    justify-content: start;
+
+
+
+}
+
+@media screen {}
