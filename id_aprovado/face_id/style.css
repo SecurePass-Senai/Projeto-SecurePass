@@ -8,7 +8,11 @@
     --font1:'Montserrat', sans-serif;
     --font2:'Righteous', cursive;
     --font3:'Titillium Web', sans-serif; 
+    --font4:'Lato', sans-serif;
     --branco: #ffffff;
+    --preto: #00000067;
+    --verde: #12D76E;
+    --azulbotao: #1A7CA6;
 
 
 }
@@ -71,23 +75,56 @@ body{
 
 
 .reconhecimento{
-    width: 100%;
+    width: 60%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-right: 300px;
+    justify-content: end;
+    height: 600px;
+    
 }
 
+
+
 .modulo{
-    padding-right: 70px;
+    height: 125px;
+    width: 360px;
+    background: var(--preto);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.modulo h2{
+    font-weight: 100px;
+    font-size: 30px;
+    font-family: var(--font4);
+    color: var(--branco);
+    text-transform: capitalize;
+    
+}
+
+.modulo p{
+    font-family: var(--font4);
+    font-size: 20px;
+    color: var(--verde);
+    text-transform: capitalize;
 }
 
 .reconhecimento img{
-    width: 27%;
+    width: 300px;
+    margin-left: 50px;
     
-    margin-top: 100px;
     
 }
 
+.botoes_footer a{
+    background: var(--azulbotao);
 
+    padding: 11px 50px;
+}
 
