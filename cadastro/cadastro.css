@@ -147,12 +147,13 @@ button:hover {
 
 nav {
     width: 120px;
-    height: 280px;
+    height: 400px;
     font-family: var(--font2);
     display: flex;
     justify-self: flex-end;
     flex-direction: column;
     position: relative;
+    top: -175px;
 
 
 }
@@ -160,30 +161,42 @@ nav {
 .btn_cadastrar {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
+    padding: 10px;
+    height: 50px;
 
     font-family: var(--font2);
     font-weight: 600;
     text-align: center;
     font-size: 15px;
-    color: #FFFFFF(--branco);
     background: #1A7CA6;
     border: 1px solid #294ABD;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 46.5px;
     text-decoration: none;
+    margin: 5px;
 
 }
 
 .btn_cadastrar:hover {
-    background-color: aliceblue;
+    background-color: orange;
     color: #000;
 
 }
+
+
 nav a {
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--branco);
+    text-decoration: none;
 
 
+
+}
+
+nav a:hover {
+
+    background-color: orange;
+    color: #000;
 }
