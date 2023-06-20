@@ -25,6 +25,11 @@ body{
 
 }
 
+.conteiner_grid img{
+    height: 50px;
+}
+
+
 .conteiner_grid p{
     color: var(--branco);
     font-family: var(--font1);
@@ -37,5 +42,52 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
 }
+
+.linha_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+
+}
+
+.linha_baixo_esquerda{
+    border-bottom: 1px solid var(--branco);
+    width: 70%;
+}
+
+.linha_header img{
+    height: 50px;
+
+}
+
+.linha_baixo_direita{
+    border-bottom: 1px solid var(--branco);
+    width: 35%;
+}
+
+
+.reconhecimento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+}
+
+.modulo{
+    padding-right: 70px;
+}
+
+.reconhecimento img{
+    width: 27%;
+    
+    margin-top: 100px;
+    
+}
+
+
+
