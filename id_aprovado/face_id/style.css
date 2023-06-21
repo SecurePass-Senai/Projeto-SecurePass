@@ -122,9 +122,31 @@ body{
     
 }
 
-.botoes_footer a{
-    background: var(--azulbotao);
+.botoes_footer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: var(--font4);
+    
+    
+    
 
-    padding: 11px 50px;
 }
 
+.home_btn{
+    background: var(--azulbotao);
+    padding: 10px 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+.sistema_btn{
+    background: var(--azulbotao);
+    padding: 10px 100px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
