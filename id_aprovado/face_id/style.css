@@ -5,14 +5,15 @@
 }
 
 :root{
-    --font1:'Montserrat', sans-serif;
-    --font2:'Righteous', cursive;
-    --font3:'Titillium Web', sans-serif; 
-    --font4:'Lato', sans-serif;
+    --font1_montserrat:'Montserrat', sans-serif;
+    --font2_righteous:'Righteous', cursive;
+    --font3_titillium:'Titillium Web', sans-serif; 
+    --font4_lato:'Lato', sans-serif;
     --branco: #ffffff;
     --preto: #00000067;
     --verde: #12D76E;
     --azulbotao: #1A7CA6;
+    --azulborda: #294ABD;
 
 
 }
@@ -36,7 +37,7 @@ body{
 
 .conteiner_grid p{
     color: var(--branco);
-    font-family: var(--font1);
+    font-family: var(--font1_montserrat);
     font-size: 20px;
     text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000, 0px 0px 2px rgba(0, 0, 0, 0);
 }
@@ -86,8 +87,8 @@ body{
 
 
 .modulo{
-    height: 125px;
-    width: 360px;
+    height: 120px;
+    width: 310px;
     background: var(--preto);
     backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -101,16 +102,16 @@ body{
 
 .modulo h2{
     font-weight: 100px;
-    font-size: 30px;
-    font-family: var(--font4);
+    font-size: 25px;
+    font-family: var(--font4_lato);
     color: var(--branco);
     text-transform: capitalize;
     
 }
 
 .modulo p{
-    font-family: var(--font4);
-    font-size: 20px;
+    font-family: var(--font4_lato);
+    font-size: 15px;
     color: var(--verde);
     text-transform: capitalize;
 }
@@ -128,25 +129,38 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    font-family: var(--font4);
+    
     
     
     
 
 }
 
-.home_btn{
+.customer_btn a{
     background: var(--azulbotao);
     padding: 10px 100px;
     border-radius: 10px;
     text-decoration: none;
+    font-family:var(--font1_montserrat) ;
+    color: var(--branco);
+    box-shadow: 10px 13px 10px -7px rgba(0,0,0,0.56);
+    border: var(--azulborda) solid 1px ;
+    text-transform: capitalize;
     
 }
 
-.sistema_btn{
-    background: var(--azulbotao);
-    padding: 10px 100px;
-    border-radius: 10px;
-    text-decoration: none;
 
+@media screen and (max-width: 1112px){
+    .reconhecimento{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 1320px) {
+    .botoes_footer, .customer_btn{
+        flex-wrap: wrap;
+        
+    }
+    
 }
