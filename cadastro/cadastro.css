@@ -146,8 +146,8 @@ nav {
     display: flex;
     justify-self: flex-end;
     flex-direction: column;
-    position: relative;
-    top: -175px;
+
+
 
 
 }
@@ -196,6 +196,23 @@ nav a:hover {
 }
 
 @media screen and (max-width: 800px) {
-    
-    
+    .hom {
+        display: none;
+    }
+
+    .edi {
+        display: flex;
+        width: 250px;
+    }
+
+
+    ._cadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    main {}
 }
