@@ -76,10 +76,10 @@ body{
 
 
 .reconhecimento{
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     height: 600px;
     
 }
@@ -124,11 +124,12 @@ body{
 }
 
 .botoes_footer {
-    width: 40%;
+    width: 60%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
+    
     
     
     
@@ -138,14 +139,20 @@ body{
 
 .customer_btn a{
     background: var(--azulbotao);
-    padding: 10px 100px;
-    border-radius: 10px;
+    /* padding: 10px 100px; */
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
     text-decoration: none;
     font-family:var(--font1_montserrat) ;
     color: var(--branco);
     box-shadow: 10px 13px 10px -7px rgba(0,0,0,0.56);
     border: var(--azulborda) solid 1px ;
     text-transform: capitalize;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -161,6 +168,10 @@ body{
     .botoes_footer, .customer_btn{
         flex-wrap: wrap;
         
+    
+    
+        
     }
+
     
 }
