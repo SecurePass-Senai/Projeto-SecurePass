@@ -80,7 +80,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 580px;
     
 }
 
@@ -118,7 +118,7 @@ body{
 
 .reconhecimento img{
     width: 300px;
-    margin-left: 50px;
+    margin: 0px 50px;
     
     
 }
@@ -149,7 +149,7 @@ body{
     box-shadow: 10px 13px 10px -7px rgba(0,0,0,0.56);
     border: var(--azulborda) solid 1px ;
     text-transform: capitalize;
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,12 +166,15 @@ body{
 
 @media screen and (max-width: 1320px) {
     .botoes_footer, .customer_btn{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
         
-    
-    
-        
+
+         
     }
 
+   
     
 }
+
+/* Sexto Commit 26/06 */
