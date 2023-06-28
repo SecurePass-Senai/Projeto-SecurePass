@@ -13,21 +13,15 @@
     }
 
 
-
-
-
-
-
     body {
         background-image: url(Img/Backgronud.png);
         color: var(--branco);
         font-family: var(--font2);
         background-repeat: no-repeat;
         background-size: cover;
-        position: fixed;
         top: 0;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         overflow: hidden;
 
     }
@@ -71,17 +65,18 @@
     }
 
     main {
-        height: 650px;
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-top: -20px;
     }
 
     .perfil {
-        height: 800px;
+
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
     }
@@ -92,6 +87,7 @@
         align-items: center;
         height: 50px;
         width: 100px;
+        margin-top: 20px;
     }
 
     .perfilp img {
@@ -101,14 +97,22 @@
     }
 
     .infos {
-        height: 1000px;
         width: 350px;
         border-radius: 10%;
         background-color: #FFFFFF;
         color: black;
         padding: 10px;
         padding-top: 10px;
+        margin-top: 20PX;
 
+
+
+    }
+
+    .alinhamento {
+        display: flex;
+        /* justify-content: flex-end; */
+        align-items: center;
 
     }
 
@@ -190,35 +194,12 @@
 
     }
 
-
-    .menu_ss {
-
-
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: end;
-        position: relative;
-        top: -280px;
-        left: 650px;
-
-    }
-
-    .menu_ss a {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: center;
-        box-sizing: border-box;
-
-
-        width: 130px;
+    button {
         height: 50px;
-        padding: 15px 0;
+        width: 200px;
+        border-radius: 30%;
+        margin-top: 20px;
         position: relative;
-
-
-
         font-family: var(--font2);
         font-weight: 600;
         text-align: center;
@@ -230,33 +211,112 @@
         border-radius: 46.5px;
         text-decoration: none;
 
+    }
+
+    button:hover {
+        background-color: orange;
+        color: #000;
 
     }
 
-.menu_ss a:hover {
-    background-color: aliceblue;
-    color: #000;
+    nav {
 
-}
+        width: 120px;
+        height: 400px;
+        font-family: var(--font2);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 20px;
 
+    }
 
-
-    .btn_cadastrar hover {
-        background-color: #333333;
-        border: 2px solid #000;
-        color: white;
-        transition: all 0.5s ease-in;
-        transition-delay: 0.05s;
-
+    .alinhamento2 {
+        display: flex;
+        justify-content: right;
+        width: 100%;
+        margin-top: -150PX;
     }
 
     .btn_cadastrar {
-        margin-top: 20px;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 20px 35px;
+        height: 50px;
+        width: 115px;
+
+        font-family: var(--font2);
+        font-weight: 600;
+        text-align: center;
+        font-size: 15px;
+        background: #1A7CA6;
+        border: 1px solid #294ABD;
+        box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 46.5px;
+        text-decoration: none;
+        margin: 5px;
+
     }
 
-    @media screen and (max-width: 1200px) {
-        header {
+    nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--branco);
+        text-decoration: none;
+
+
+    }
+
+    nav a:hover {
+
+        background-color: orange;
+        color: #000;
+    }
+
+
+
+
+
+    @media screen and (max-width: 800px) {
+        .hom {
+            display: none;
+        }
+
+        .edi {
+            display: flex;
+            width: 120px;
+        }
+
+
+        ._cadastro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .alinhamento2 {
+            display: flex;
+            justify-content: center;
             width: 100%;
+            margin-top: 0px;
+        }
+    }
+
+
+    @media screen and (max-width: 510px) {}
+
+    @media screen and (max-width: 405px) {
+
+        .formulario {
+            width: 350px;
+            height: 250px;
+        }
+
+        .forms {
+            width: 350px;
+            height: 40px;
         }
     }
