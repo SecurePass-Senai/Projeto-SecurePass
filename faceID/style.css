@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azulE: #072F57;
+    --azulC: #1A7CA6;
+    --branco: #E3F6F5;
+    --verdeC: #BAE8E8;
+    --verdeE: #2C698D;
+
+    --font1: 'Montserrat Alternates', sans-serif;
+    --font2: 'Roboto', sans-serif;
+
+}
+
+/* configuração do background */
+body {
+    background-image: url("Img/Backgronud.png");
+    /* background-position: absolute; */
+    background-repeat: no-repeat;
+
+}
+
+/* colocando cor no header */
+
+
+/* alinhando o conteudo dentro header */
+.posicao_header {
+width: 90%;
+margin: 0% auto;
+}
+
+/* font 1 */
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/* colocando os textos com uma margin minima */
+.posicao_header p {
+    color: var(--branco);
+    font-family: var(--font1);
+    font-size: 20px;
+
+}
+
+/* configurando o h1 */
+h1 {
+    /* position: absolute; */
+    left: -999em;
+    width: 1em;
+}
+
+
+
+/* linha secure pass */
+.linha_header {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 10px;
+
+}
+
+.linha_esquerda{
+    border-bottom: 1px solid var(--branco);
+    width: 70%;
+}
+
+/* linha do logo secure pass */
+.linha_header img{
+   height: 50px;
+}
+
+.linha_direita_baixo{
+    border-bottom: 1px solid var(--branco);
+    width: 30%;
+}
+
+/* alinhamento da imagem de validacao */
+.valid {
+    width: 300px;
+    justify-self: center;
+    margin-left: 10%;
+
+}
+
+
+/* Texto da caixa background */
+.Detecção {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font2);
+    color: var(--branco);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 127px;
+    width: 300px;
+    background-color: #000000;
+    font-size: large;
+    border-radius: 15px;
+}
+
+/* Alinhe seu rosto */
+.Detecção>p {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    height: 650px;
+    width: 55%;
+    margin-left: 15%;
+    justify-content: start;
+
+
+}
+@media screen and (max-width: 1117px) {
+
+    .conteudo{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2%;
+        margin-top: 45px;
+    }
+
+    .conteudo img{
+        margin-left: 1%;
+    }
+    
+}
