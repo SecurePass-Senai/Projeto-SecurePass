@@ -88,7 +88,7 @@ h1{
     display: flex;
     flex-direction: row;
     margin: 0px 0px -40px 65%;
-    width: 70px;
+    width: 5%;
     background-color: var(--azulE);
     position: relative;
 }
@@ -317,4 +317,42 @@ th{
   /* Button 3 */
   
 
+  @media screen and (max-width:1200px) {
+    .botao{
+      margin-top: auto;
+      display: flex;
+      margin-left: 5px;
 
+  }
+  }
+
+
+  /* @media screen and (max-width:300px){
+    .banner_conteudo img{
+        display: none;
+
+    }
+    
+} */
+
+@media screen and (max-width:300px){
+  .botao{
+      margin-top: auto;
+      display: flex;
+      margin-left: 5px;
+
+  }
+  .calendario table{
+    display: flex;
+  }
+ 
+  
+}
+
+@media screen and (max-width:670px) {
+  .linha img{
+    display: none;
+
+
+  }
+}
