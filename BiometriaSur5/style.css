@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgba(5, 20, 75, 0.7), rgba(5, 20, 75, 0.7)), url("img/Background.png");
+  background-size: cover;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000; */
+  text-shadow:
+    -1px -1px 0px #000,
+    -1px 1px 0px #000,
+    1px -1px 0px #000,
+    1px 0px 0px #000;
+  margin-top: 10px;
+
+}
+
+.cabeca {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+
+}
+
+.esquerda {
+  width: 1030px;
+  height: 1px;
+  /* margin-top: 10px; */
+}
+
+.direita {
+  width: 460px;
+  height: 1px;
+  /* margin-top: 10px; */
+}
+
+.linha img {
+  width: 70px;
+  margin-top: -19px;
+}
+
+.linha {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rosto-leitura {
+  display: flex;
+  margin-top: 60px;
+  /* margin-left: 50%;
+    transform: translate(-50%, -50%); */
+  /* width: 375px; */
+  align-items: center;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.botao_principal {
+  display: flex;
+  align-items: center;
+  border: none;
+  /* margin-top: 450px; */
+  /* transform: translate(-50%, -50%); */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  white-space: nowrap;
+  border-radius: 70px;
+  padding: 20px 30px;
+  background-color: #1A7CA6;
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 10));
+  text-shadow:
+    -1px -1px 0px #000,
+    -1px 1px 0px #000,
+    1px -1px 0px #000,
+    1px 0px 0px #000;
+  text-align: center;
+
+}
+
+
+.btn {
+  display: flex;
+  margin-top: 50px;
+  /* margin-left: -40%; */
+
+}
+
+@media screen and (max-width:768px) {
+  .linha hr {
+
+    display:none ;
+  }
+
+  .cabeca {
+    display: none;
+  }
+
+  .linha img {
+margin-top: 10px;  }
+
+}
