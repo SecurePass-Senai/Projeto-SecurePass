@@ -113,6 +113,12 @@ h2 {
 
 }
 
+a:hover {
+  background-color: orange;
+  color: #000;
+}
+
+
 @media screen and (max-width:768px) {
   .linha hr {
 
