@@ -194,11 +194,11 @@
 
     }
 
-    button {
+    .ss {
         height: 50px;
         width: 200px;
         border-radius: 30%;
-        margin-top: 20px;
+        
         position: relative;
         font-family: var(--font2);
         font-weight: 600;
@@ -213,8 +213,8 @@
 
     }
 
-    button:hover {
-        background-color: orange;
+    .ss:hover {
+        background-color: gray;
         color: #000;
 
     }
@@ -227,7 +227,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 20px;
+        margin-top: -71px;
 
     }
 
@@ -241,7 +241,6 @@
     .btn_cadastrar {
         display: flex;
         justify-content: center;
-        padding: 20px 35px;
         height: 50px;
         width: 115px;
 
@@ -258,7 +257,7 @@
 
     }
 
-    nav a {
+    nav .ss {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -268,7 +267,7 @@
 
     }
 
-    nav a:hover {
+    nav .ss:hover {
 
         background-color: orange;
         color: #000;
@@ -302,6 +301,9 @@
             justify-content: center;
             width: 100%;
             margin-top: 5px;
+        }
+        nav {
+            margin-top: 0px;
         }
     }
 
