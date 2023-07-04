@@ -101,6 +101,7 @@ h2 {
     1px -1px 0px #000,
     1px 0px 0px #000;
   text-align: center;
+  text-decoration: none;
 
 }
 
@@ -112,10 +113,16 @@ h2 {
 
 }
 
+a:hover {
+  background-color: orange;
+  color: #000;
+}
+
+
 @media screen and (max-width:768px) {
   .linha hr {
 
-    display:none ;
+    display: none;
   }
 
   .cabeca {
@@ -123,6 +130,7 @@ h2 {
   }
 
   .linha img {
-margin-top: 10px;  }
+    margin-top: 10px;
+  }
 
 }

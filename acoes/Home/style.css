@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azulE: #072F57;
+  --azulC: #1A7CA6;
+  --branco: #E3F6F5;
+  --verdeC: #BAE8E8;
+  --verdeE: #2C698D;
+  --cinza: #999999;
+  --verde: #12D76E;
+  --azulbtn: #294ABD;
+
+  --font1: 'Montserrat Alternates', sans-serif;
+  --font2: 'Roboto', sans-serif;
+
+}
+
+/* configuração do backgoround */
+
+header {
+  width: 100%;
+}
+
+.log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hr_esquerda {
+  border-bottom: solid 2px #FFFFFF;
+  width: 60%;
+
+}
+
+.hr_direita {
+  border-bottom: solid 2px #FFFFFF;
+  width: 35%;
+
+
+}
+
+.log img {
+  height: 80px;
+}
+
+.nomes {
+  font-family: var(--font2);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+body {
+  background-image: url("../img/Backgronud.png");
+  color: var(--branco);
+  font-family: var(--font2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+    overflow: hidden;
+  }
+
+main {
+  background-image: url("../img/Backgronud.png");
+  background-color: var(--azulE);
+  font-family: var(--font2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* colocando cor no header */
+header {}
+
+/* alinhando o conteudo dentro header */
+.posicao_header {
+  font-family: var(--font1);
+  color: var(--branco);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font1);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* colocando os textos com uma margin minima */
+header p {
+  margin: 15px;
+  margin-top: 30px;
+
+}
+
+/* configurando o h1 */
+h1 {
+  position: absolute;
+  left: -999em;
+  width: 1em;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.banner_conteudo {
+  background-color: var(--azulE);
+}
+
+/* configuração da linha que cruza a tela */
+.linha {
+  width: 100%;
+  border-bottom: 3px solid var(--branco);
+  display: flex;
+}
+
+/*  colocando a imagem na linha */
+.linha img {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px -40px 65%;
+  width: 70px;
+
+  position: relative;
+}
+
+/* Configurando os números de matricula e sessão */
+
+.teste {
+  display: flex;
+  color: var(--branco);
+  /* display: flex; */
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.teste p {
+  font-family: var(--font1);
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.num {
+  width: 200px;
+  height: 30px;
+  background-color: var(--branco);
+  color: black;
+  margin-top: 5px;
+  border-radius: 50px;
+  line-height: 1.8;
+
+}
+
+/* Configurando a tabela de horarios */
+.calendario {
+  text-align: center;
+  font-family: var(--font1);
+}
+
+.calendario p,
+h2 {
+  color: var(--branco);
+  margin-top: 10px;
+
+}
+
+table {
+  color: var(--branco);
+  font-family: var(--font1);
+}
+
+
+table,
+th,
+td {}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: var(--branco);
+  color: var(--azulE);
+}
+
+th {
+  color: var(--branco);
+}
+
+/* Configurando os botões */
+
+.botao {
+  width: 120px;
+  height: 400px;
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  margin-left: 85%;
+  margin-top: -50px;
+
+}
+
+.btn {
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 50px;
+
+  font-family: var(--font1);
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+  background: #1A7CA6;
+  border: 1px solid #294ABD;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 46.5px;
+  text-decoration: none;
+  margin: 5px;
+
+}
+
+.btn a {
+  color: var(--branco);
+
+  font-family: var(--font1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+  font-family: var(--font2);
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+.btn-sep:before {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* Button 0 */
+
+.btn-0 {
+  background: #1A7CA6;
+  color: #fff;
+}
+
+.btn-0:hover {
+  background-color: orange;
+  color: #000;
+}
+
+.btn-0:active {
+  background: #1A7CA6;
+  top: 2px;
+}
+
+.btn-0:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 1 */
+.btn-1 {
+  background: #1A7CA6;
+  color: #fff;
+}
+
+.btn-1:hover {
+  background-color: orange;
+  color: #000;
+}
+
+.btn-1:active {
+  background: #1A7CA6;
+  top: 2px;
+}
+
+.btn-1:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 2 */
+.btn-2 {
+  background: #1A7CA6;
+  color: #fff;
+}
+
+.btn-2:hover {
+  background-color: orange;
+  color: #000;
+
+}
+
+.btn-2:active {
+  background: #1A7CA6;
+  color: #fff;
+}
+
+.btn-2:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 3 */
+.btn-3 {
+  background: #1A7CA6;
+  color: #000;
+}
+
+.btn-3:hover {
+  background-color: orange;
+  color: #000;
+
+}
+
+.btn-3:active {
+  background: #1A7CA6;
+  top: 2px;
+}
+
+.btn-3:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 3 */

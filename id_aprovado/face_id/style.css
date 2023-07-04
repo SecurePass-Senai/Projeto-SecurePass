@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1_montserrat: 'Montserrat', sans-serif;
+    --font2_righteous: 'Righteous', cursive;
+    --font3_titillium: 'Titillium Web', sans-serif;
+    --font4_lato: 'Lato', sans-serif;
+    --branco: #ffffff;
+    --preto: #00000067;
+    --verde: #12D76E;
+    --azulbotao: #1A7CA6;
+    --azulborda: #294ABD;
+
+
+}
+
+body {
+    background: url(../Assets/Backgronud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteiner_grid {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.conteiner_grid img {
+    height: 50px;
+}
+
+
+.conteiner_grid p {
+    color: var(--branco);
+    font-family: var(--font1_montserrat);
+    font-size: 20px;
+    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000, 0px 0px 2px rgba(0, 0, 0, 0);
+}
+
+
+.header_cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.linha_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+
+}
+
+.linha_baixo_esquerda {
+    border-bottom: 1px solid var(--branco);
+    width: 70%;
+}
+
+.linha_header img {
+    height: 50px;
+
+}
+
+.linha_baixo_direita {
+    border-bottom: 1px solid var(--branco);
+    width: 35%;
+}
+
+
+.reconhecimento {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+
+}
+
+
+
+.modulo {
+    height: 120px;
+    width: 310px;
+    background: var(--preto);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.modulo h2 {
+    font-weight: 100px;
+    font-size: 25px;
+    font-family: var(--font4_lato);
+    color: var(--branco);
+    text-transform: capitalize;
+
+}
+
+.modulo p {
+    font-family: var(--font4_lato);
+    font-size: 15px;
+    color: var(--verde);
+    text-transform: capitalize;
+}
+
+.reconhecimento img {
+    width: 300px;
+    margin: 0px 50px;
+
+
+}
+
+.botoes_footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+
+
+
+
+
+
+}
+
+.customer_btn a {
+    background: var(--azulbotao);
+    /* padding: 10px 100px; */
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: var(--font1_montserrat);
+    color: var(--branco);
+    box-shadow: 10px 13px 10px -7px rgba(0, 0, 0, 0.56);
+    border: var(--azulborda) solid 1px;
+    text-transform: capitalize;
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a:hover {
+    background-color: orange;
+    color: #000;
+}
+
+    @media screen and (max-width: 1112px) {
+        .reconhecimento {
+            flex-wrap: wrap;
+        }
+    }
+
+
+    @media screen and (max-width: 1320px) {
+
+        .botoes_footer,
+        .customer_btn {
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+
+
+
+        }
+
+
+
+    }
+
+    /* Sexto Commit 26/06 */
