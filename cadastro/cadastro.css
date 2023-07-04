@@ -171,9 +171,9 @@ nav {
 
 }
 
-.btn_cadastrar:hover, .bt:hover {
-    background-color: orange;
-    color: #000;
+        .btn_cadastrar:hover, .bt:hover {
+            background-color: orange;
+            color: #000;
 
 }
 
